@@ -34,7 +34,7 @@ else if(result3>=result1&&result3>result2){
     printf("%f radian the larger theta for light bent more\n",result3);
 }
     if(result1==result2&&result2==result3){
-        printf("There is no larger theta. So no light bent more);
+        printf("There is no larger theta. So no light bent more");
             }
 
 }
