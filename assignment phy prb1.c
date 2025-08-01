@@ -23,16 +23,19 @@ printf("Theta2: %f radian\n",result2);
 float result3 = asin(m*sum/mul3);
 printf("Theta3: %f radian\n",result3);
 
-if(result1>result2&&result1>result3){
+if(result1>=result2&&result1>result3){
     printf("%f radian the larger theta for light bent more\n",result1);
 }
 
-if(result2>result1&&result2>result3){
+if(result2>=result1&&result2>result3){
     printf("%f radian the larger theta for light bent more\n",result2);
 }
-else if(result3>result1&&result3>result2){
+else if(result3>=result1&&result3>result2){
     printf("%f radian the larger theta for light bent more\n",result3);
 }
+    if(result1==result2&&result2==result3){
+        printf("There is no larger theta. So no light bent more);
+            }
 
 }
 else{printf("Out of the range. Please enter a valid number.");}
